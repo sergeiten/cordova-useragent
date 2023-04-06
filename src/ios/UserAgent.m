@@ -20,7 +20,7 @@
     
     NSString* callbackId = command.callbackId;
     CDVPluginResult* pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsString:newUserAgent];
-    [self.commandDelegate sendPluginResult:pluginResult callbackId:callbackId];
+    /* [self.commandDelegate sendPluginResult:pluginResult callbackId:callbackId]; */
 }
 
 - (void)reset: (CDVInvokedUrlCommand*)command
