@@ -38,7 +38,7 @@ public class UserAgent extends CordovaPlugin {
                   if (action.equals("set")) {
                      String text = args.getString(0);
                      settings.setUserAgentString(text);
-                     callbackContext.success(settings.getUserAgentString());
+                     // callbackContext.success(settings.getUserAgentString());
                      return true;
                    } else if (action.equals("get")) {
                      callbackContext.success(settings.getUserAgentString());
