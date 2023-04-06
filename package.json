@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Cordova plugin for reading/changing the user agent of WebView client",
   "cordova": {
-    "id": "im.ltdev.cordova.UserAgent",
+    "id": "cordova-plugin-useragent",
     "platforms": [
       "android",
       "ios"
